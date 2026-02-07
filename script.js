@@ -1,6 +1,5 @@
 const noBtn = document.getElementById("no");
 const yesBtn = document.getElementById("yes");
-const result = document.getElementById("result");
 
 noBtn.addEventListener("mouseover", () => {
     const x = Math.random() * (window.innerWidth - 100);
@@ -10,5 +9,5 @@ noBtn.addEventListener("mouseover", () => {
 });
 
 yesBtn.addEventListener("click", () => {
-    result.innerHTML = "YAY!!! 🎉💖";
+    window.location.href = "https://youtu.be/dQw4w9WgXcQ";
 });
